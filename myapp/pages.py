@@ -14,7 +14,7 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.fragment(
-        rx.color_mode_button(rx.color_mode_icon(), float="right"),
+        # rx.color_mode_button(rx.color_mode_icon(), float="right"),
         rx.vstack(
             rx.heading("Welcome to Reflex on Railway Hello World!!!", font_size="2em"),
             rx.box("Get started by editing ", rx.code(filename, font_size="1em")),
@@ -44,7 +44,7 @@ def health() -> rx.Component:
 
 def not_found(page_text) -> rx.Component:
     return rx.fragment(
-        rx.color_mode_button(rx.color_mode_icon(), float="right"),
+        # rx.color_mode_button(rx.color_mode_icon(), float="right"),
         rx.vstack(
             rx.heading(page_text, font_size="2em"),
             spacing="1.5em",
