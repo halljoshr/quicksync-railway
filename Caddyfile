@@ -1,7 +1,7 @@
 {
 	# global options
 	admin off # theres no need for the admin api in railway's environment
-	persist_config off # storage isn't persistent anyway
+	# persist_config off # storage isn't persistent anyway
 	auto_https off # railway handles https for us, this would cause issues if left enabled
 	log {
 		# runtime logs
